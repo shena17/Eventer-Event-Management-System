@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-family: var(--font-family-solid);
+}
+
+:root {
+  /* COLORS */
+  --clr-pri-red: #ff3d55;
+  --clr-pri-darkblue: rgba(14, 56, 94);
+  --clr-pri-opacity: rgba(14, 55, 94, 0.827);
+  --clr-opa-darkblue: rgba(14, 55, 94, 0.894);
+
+  --clr-typo-darkblue: #283d58;
+  --clr-typo-darkgrey: #57616b;
+  --clr-typo-lightgrey: #828c96;
+  --clr-type-white: white;
+
+  /* TYPOGRAPHY */
+  --font-size: 1rem;
+  --font-family-cursew: "Playball", Arial, Helvetica, sans-serif;
+  --font-family-para: "Comic Neue", Helvetica, Arial, sans-serif;
+  --font-family-solid: "Be Vietnam Pro", sans-serif;
+
+  /* MARGIN */
+  --margin-default: 0px 6rem;
+}
+/* .rightlower{
+    background-color: #ff3d55;
+} */
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 30px 0px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* height: 50vh; */
+    border-style: none;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 40%);
+    /* background-color: darkcyan; */
+}
+.content table{
+    width: 95%;
+    text-align: center;
+    font-size: large;
+    padding: 20px 0px;
+    font-family: var(--font-family-solid);
+    /* background-color: aqua; */
+}
+
+.content table th, td{
+    padding-bottom: 30px;
+}

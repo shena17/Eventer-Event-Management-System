@@ -1,0 +1,74 @@
+.rightlower {
+  background-color: white;
+  box-shadow: 1px 4px 10px grey;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  height: fit-content;
+  position: relative;
+  top: 20%;
+  border-radius: 15px;
+  padding: 2% 5%;
+}
+
+.right {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(249, 249, 248, 0.513);
+}
+
+.detail {
+  margin-top: 15px;
+  border: 1px solid grey;
+  padding: 1.5% 3%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: rgb(5, 5, 169);
+  font-size: 0.7rem;
+}
+
+.result {
+  color: rgb(104, 103, 103);
+  outline: none;
+  border: 0;
+  font-size: 1rem;
+}
+
+.lower {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.lower .detail {
+  width: 45%;
+}
+
+.payBtn {
+  text-align: center;
+}
+
+.pay {
+  border: 0;
+  padding: 3% 20%;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: rgb(44, 44, 214);
+  color: white;
+  font-size: 1rem;
+  transition: transform 150ms ease-in-out;
+  cursor: pointer;
+}
+
+.pay:hover {
+  transform: scale(1.1);
+}
+
+.paypal {
+  height: 50px;
+}

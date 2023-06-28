@@ -1,0 +1,72 @@
+.right {
+  border-radius: 15px;
+  height: fit-content;
+}
+
+.login-body {
+  width: 35%;
+}
+
+.login-topic {
+  margin-bottom: 500px;
+}
+
+.input label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.input select {
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 2% 0%;
+  padding-left: 5px;
+  outline: none;
+}
+
+.input span {
+  display: flex;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 10px;
+  padding-top: 5px;
+  margin-left: 5%;
+  padding-left: 5%;
+}
+
+.input span::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 1px;
+  background-color: grey;
+}
+
+.input p {
+  color: white;
+  font-family: var(--font-family-para);
+  font-size: 0.9rem;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+.prices {
+  margin-top: 15px;
+  position: relative;
+}
+
+.prices::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 2px;
+  background-color: white;
+}
+
+.prices p {
+  color: white;
+  font-family: var(--font-family-solid);
+  font-size: 1rem;
+  margin-top: 15px;
+  font-weight: 700;
+}
