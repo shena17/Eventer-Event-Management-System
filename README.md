@@ -4,6 +4,5 @@ Eventer is a comprehensive software solution designed to simplify the planning, 
 
 
 ## Demo
-
 https://eventerproject.netlify.app/
 
